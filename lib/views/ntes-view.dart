@@ -7,9 +7,12 @@ class NotesView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:  NotesViewsBody(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child:Icon(Icons.add),
+        backgroundColor: Colors.blue,
+      ),
+      body: NotesViewsBody(),
     );
   }
 }
-
-
