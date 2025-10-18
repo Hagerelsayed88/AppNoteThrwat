@@ -15,7 +15,7 @@ class addNoteButoomsheet extends StatelessWidget {
         children: [
          // SizedBox(height: 10,),
           custemTextfield(hint: 'title',),
-          SizedBox(height: 20,),
+          SizedBox(height: 16,),
           custemTextfield(hint: 'content',maxline: 5,),
         ],
       ),

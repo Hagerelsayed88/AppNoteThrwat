@@ -15,7 +15,7 @@ class custemTextfield extends StatelessWidget {
        hintText: hint,
        hintStyle: TextStyle(color: khintTextColor),
        border: OutlineInputBorder(
-         borderRadius: BorderRadius.circular(20),
+         borderRadius: BorderRadius.circular(18),
        ),
      ),
     );
